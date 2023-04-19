@@ -7,7 +7,7 @@
        app:showAsAction="ifRoom"
        />
 
-<item  android:id="@+id/pcion2"
+<item  android:id="@+id/opcion2"
         android:title="Opcion2"
         app:showAsAction="never"
         />
