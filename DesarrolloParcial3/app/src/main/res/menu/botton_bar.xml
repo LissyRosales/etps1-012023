@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item  android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home"
+        android:title="Home"
+        />
+    <item  android:id="@+id/nav_buscar"
+        android:icon="@drawable/baseline_search"
+        android:title="Buscar"
+        />
+    <item  android:id="@+id/nav_persona"
+        android:icon="@drawable/baseline_persona"
+        android:title="Persona"
+        />
+    <item  android:id="@+id/nav_persona"
+        android:icon="@drawable/baseline_settings"
+        android:title="Persona"
+        />
+
+</menu>
