@@ -29,7 +29,7 @@
         app:layout_constraintVertical_bias="0.153" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edtnombrecliente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -52,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvNombreCl" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/edtApellidocliente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -75,7 +75,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvApellidoCl" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/edtdireccion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -98,14 +98,26 @@
         app:layout_constraintTop_toBottomOf="@+id/tvDireccCl" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/edtciudad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="264dp"
+        android:layout_marginBottom="244dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCiudad" />
+
+    <Button
+        android:id="@+id/btnagregarr"
+        android:layout_width="258dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="144dp"
+        android:text="Agregar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
